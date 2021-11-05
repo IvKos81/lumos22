@@ -1197,6 +1197,7 @@
       z-index: 1; }
     .promo_wrapper {
       margin: 0 auto;
+      height: 860px;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -1265,13 +1266,6 @@
     .promo_second_text {
       display: block;
       width: 730px;
-      font-family: Gilroy;
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 30px;
-      letter-spacing: 0em;
-      text-align: center;
       font-family: Gilroy;
       font-size: 24px;
       font-style: normal;
@@ -1365,7 +1359,7 @@
       line-height: 25px;
       letter-spacing: 0em; }
     .promo_buttons {
-      margin-top: 15px;
+      margin-top: 1,5%;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -1402,10 +1396,10 @@
     .button__yellow {
       background-color: #FAD264; }
     .promo_text_third {
-      margin-top: 19px;
+      margin-top: 1%;
       font-size: 14px; }
     .promo_footer {
-      margin-top: 20px;
+      margin-top: 1%;
       width: 29%;
       display: -webkit-box;
       display: -webkit-flex;
@@ -1430,7 +1424,10 @@
       text-align: center;
       font-size: 16px; }
     .promo_footer_logo {
-      margin-top: 50px; } 
+      position: relative;
+      z-index: 10;
+      margin-top: -23px;
+     } 
     .programm {
       width: 100%;
       height: auto;
